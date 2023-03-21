@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+h1 {
+  margin: 20px;
+}
+
+h1 span {
+  color: #c3d0f0;
+  border-bottom: 5px solid #567bd5;
+}
+
+.searchCon {
+  min-height: 80vh;
+  width: 90%;
+}
+
+.searchCon label {
+  width: 150px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.searchCon input,
+.searchCon button,
+.searchCon select {
+  height: 40px;
+  min-width: 100px;
+  max-width: 130px;
+  margin: 10px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  /*font-size: 15px;*/
+}
+
+.searchCon button,
+.searchCon select {
+  max-width: 200px;
+  padding: 10px;
+}
+
+.notificationBtn {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  font-size: 15px;
+}
+button:active,
+select:focus,
+input:focus {
+  outline: 5px solid #567bd5;
+  background-color: #c3d0f0;
+}
